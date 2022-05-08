@@ -12,6 +12,11 @@ p {
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 22px;
+    font-family: "Gentium Book Basic"
+}
+
+b {
+    font-size: 28px;
 }
 
 /*Isnivrís fur ilítstchijsís snivrís ón ihémsbléd*/
