@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ilanwurqlíd</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="nav-placeholder"></div>
+
+      <script>
+        $(function () {
+          $("#nav-placeholder").load("nav.html");
+        });
+      </script>
+    </header>
+
+    <main>
+      <h1>I L A N W U R Q L Í D</h1>
+
+      <div id="lítstchijs">
+        <p>Líd/Language:</p>
+        <div class="radio-toolbar">
+          <input
+            type="radio"
+            id="radioLanwurq"
+            name="lanwurq-snivre"
+            value="A"
+          />
+          <label id="lanwurqlabel" for="radioLanwurq" onclick="showLanwurq()"
+            >Ilanwurqlíd</label
+          >
+
+          <input
+            type="radio"
+            id="radioEnglish"
+            name="english-button"
+            value="B"
+          />
+          <label id="howdy" for="radioEnglish" onclick="showEnglish()"
+            >English</label
+          >
+        </div>
+      </div>
+
+      <div id="lanwurq">
+        <p>
+          Híar iwijq aneñq ilanwurqlíts gremur in wurts juocnsích.<br />
+
+          Ilanwurqlíts afij wístdjírmañslíd þiqs spichiq in aphuchuo eichlahhns
+          in Focurclanwurq, awí éarq in Focurc in is'chóqs léhôns. 'Sdúñchmn fe
+          ioodngoñslíd ben iootscóqslíd in imitscóqslíd se 'ssibhiq qe
+          is'chótslíd. 'Sadód eianglisfríscheslíts fémle þiq ijólaslíd,
+          ifngajnslíd, i-ngoñslíd in ifríscheslíd iqhus ano. Se iiður líts fe
+          Scóqôn, ilanwurqlíts bín trañqebhi cioq se þiq i-ngoñslíd ébdíd
+          spichiq réður, in is afénin iqwurciq fur þiq ilanwurqlíts aséar dín
+          líd we énle aphuchuo eisphichurs þiqr fóon nú.
+        </p>
+      </div>
+
+      <div id="english">
+        <p>
+          You can search information about Lanwurq's grammar and vocabulary
+          here.<br />
+
+          Lanwurq is a moribund West Germanic language that is spoken in a few
+          villages in Focurclanwurt, a small region in Falkirk in the Scottish
+          Lowlands. It descends from Old English via Old and Middle Scots and so
+          it is related to Scots. It is part of the Anglo-Frisian languages
+          which also has Yola, Fingalian, English and Frisian. Like other
+          languages from Scotland, Lanwurq has faced attempts to kill it so that
+          everyone would speak English instead, and this attempt worked because
+          now Lanwurq is a dying language with only a few speakers remaining.
+        </p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

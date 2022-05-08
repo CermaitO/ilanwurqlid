@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: beige;
+    margin-left: 100px;
+}
+
+p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 22px;
+}
+
+/*Isnivrís fur ilítstchijsís snivrís ón ihémsbléd*/
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+
+    /* background-image: url(saltire.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;*/
+
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 30px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+#lanwurqlabel {
+    background-image: url(saltire.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+#howdy {
+    background-image: url(hamborger.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.radio-toolbar label:hover {
+    background-color: #dfd;
+}
+
+.radio-toolbar input[type="radio"]:focus+label {
+    border: 2px dashed #444;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+    background-color: #bfb;
+    border-color: #4c4;
+}
+
+
+
+
+#lítstchijs {
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+#word-count-text{
+    text-align: center;
+}
+
+.dictionary-sidenav {
+    height: 100%;
+    width: 75px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.dictionary-sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.dictionary-sidenav a:hover {
+    color: #f1f1f1;
+}
