@@ -1,9 +1,51 @@
+.letterList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left:10em;
+    margin-right:10em;
+}
+
+.letter-and-name {
+    text-align: center;
+}
+
+.letter {
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.letter-name {
+    font-style:italic;
+}
+
+
+.letter-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.letter-sound {
+    font-weight: bold;
+}
+
+
+
+
 h1 {
     text-align: center;
     font-size: 50px;
 }
 
 h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
     text-align: center;
 }
 
