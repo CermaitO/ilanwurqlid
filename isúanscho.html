@@ -10,6 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
   </head>
 
   <body>
@@ -25,6 +26,8 @@
 
     <main>
       <h1>iSúanscho in iScrívn</h1>
+
+      <p>To hear how a word is pronounced, click on the word to play a recording of it being pronounced. All text in bold can be clicked.</p>
 
       <p>The Lanwurq alphabet consists of 31 letters:</p>
 
@@ -86,7 +89,7 @@
 
         <div class="letter-and-name">
           <p class="letter">J j</p>
-          <p class="letter-name">ji</p>
+          <p class="letter-name">djij</p>
         </div>
 
         <div class="letter-and-name">
@@ -131,7 +134,7 @@
 
         <div class="letter-and-name">
           <p class="letter">Q q</p>
-          <p class="letter-name">cjú</p>
+          <p class="letter-name">qi</p>
         </div>
 
         <div class="letter-and-name">
@@ -187,43 +190,43 @@
 
       <p>
         The letters <b>x</b> and <b>z</b> are not used even when writing foreign
-        loanwords: <b>sijlafón</b> "xylophone" and <b>síbra</b> "zebra".
+        loanwords: <b id="sijlafon">sijlafón</b> "xylophone" and <b id="sibra">síbra</b> "zebra".
       </p>
 
       <p>
         The letter yogh <b>ȝ</b> (capital: <b>Ȝ</b>) can be used as an
         alternative for <b>j</b> when font support allows for it. So the word
-        <b>qijara</b> "to earn" could also be spelled as <b>qiȝara</b>.
+        <b id="qijara">qijara</b> "to earn" could also be spelled as <b>qiȝara</b>.
       </p>
 
       <p>
-        Vowel letters with diacritics represent different vowel qualities entirely, rather than stress. below are some examples of words that are almost identical appar from the pronunciation of the vowel.
+        Vowel letters with diacritics represent different vowel qualities entirely, rather than stress. below are some examples of words that are almost identical apart from the pronunciation of the vowel.
       </p>
 
       <ul class="centering">
-        <li><b>hos</b> "halls" vs <b>hós</b> "sock"</li>
-        <li><b>bobhe</b> "baby" vs <b>bóbhe</b> "babe"</li>
-        <li><b>hus</b> "has" vs <b>hús</b> "has"</li>
-        <li><b>hon</b> "hand" vs <b>hón</b> "whetstone"</li>
-        <li><b>hen</b> "sweetheart" vs <b>hén</b> "to gather"</li>
-        <li><b>grun</b> "ground" vs <b>grún</b> "shuddered"</li>
-        <li><b>gof</b> "golf" vs <b>góf</b> "for an animal to toss its head"</li>
-        <li><b>go</b> "channel for draining water" vs <b>gó</b> "excitement"</li>
-        <li><b>goq</b> "boar" vs <b>góq</b> "got"</li>
-        <li><b>gin</b> "if" vs <b>gín</b> "gave"</li>
-        <li><b>ged</b> "pike" vs <b>géd</b> "went"</li>
-        <li><b>fiq</b> "foot" vs <b>fíq</b> "feet"</li>
-        <li><b>en</b> "end" vs <b>én</b> "own"</li>
-        <li><b>eq</b> "ate" vs <b>éq</b> "oat"</li>
-        <li><b>dos</b> "dolls" vs <b>dós</b> "tobacco pouch"</li>
-        <li><b>cus</b> "closely" vs <b>cús</b> "cow's"</li>
-        <li><b>con</b> "called" vs <b>cón</b> "squirrel"</li>
-        <li><b>buch</b> "beach tree" vs <b>búch</b> "amount"</li>
-        <li><b>bred</b> "lid" vs <b>bréd</b> "broad"</li>
-        <li><b>bos</b> "balls" vs <b>bós</b> "tussock, rounded prominence, round mass"</li>
-        <li><b>bon</b> "borrowed" vs <b>bón</b> "petition"</li>
-        <li><b>bi</b> "by" vs <b>bí</b> "bee"</li>
-        <li><b>ben</b> "through vs <b>bén</b> "bone"</li>
+        <li><b id="hos">hos</b> "halls" vs <b id="hós">hós</b> "sock"</li>
+        <li><b id="bobhe">bobhe</b> "baby" vs <b id="bóbhe">bóbhe</b> "penis"</li>
+        <li><b id="hus">hus</b> "has" vs <b id="hús">hús</b> "house"</li>
+        <li><b class="hon">hon</b> "hand" vs <b id="hón">hón</b> "whetstone"</li>
+        <li><b id="hen">hen</b> "sweetheart" vs <b id="hén">hén</b> "to gather"</li>
+        <li><b id="grun">grun</b> "ground" vs <b id="grún">grún</b> "shuddered"</li>
+        <li><b id="gof">gof</b> "golf" vs <b id="góf">góf</b> "for an animal to toss its head"</li>
+        <li><b id="go">go</b> "channel for draining water" vs <b id="gó">gó</b> "excitement"</li>
+        <li><b id="goq">goq</b> "boar" vs <b id="góq">góq</b> "got"</li>
+        <li><b class="gin">gin</b> "if" vs <b id="gín">gín</b> "gave"</li>
+        <li><b id="ged">ged</b> "pike" vs <b id="géd">géd</b> "went"</li>
+        <li><b id="fiq">fiq</b> "foot" vs <b id="fíq">fíq</b> "feet"</li>
+        <li><b id="en">en</b> "end" vs <b id="én">én</b> "own"</li>
+        <li><b id="eq">eq</b> "ate" vs <b id="éq">éq</b> "oat"</li>
+        <li><b id="dos">dos</b> "dolls" vs <b id="dós">dós</b> "tobacco pouch"</li>
+        <li><b id="cus">cus</b> "closely" vs <b id="cús">cús</b> "cow's"</li>
+        <li><b id="con">con</b> "called" vs <b id="cón">cón</b> "squirrel"</li>
+        <li><b id="buch">buch</b> "beach tree" vs <b id="búch">búch</b> "amount"</li>
+        <li><b id="bred">bred</b> "lid" vs <b id="bréd">bréd</b> "broad"</li>
+        <li><b class="bos">bos</b> "balls" vs <b id="bós">bós</b> "tussock, rounded prominence, round mass"</li>
+        <li><b id="bon">bon</b> "borrowed" vs <b id="bón">bón</b> "petition"</li>
+        <li><b id="bi">bi</b> "by" vs <b id="bí">bí</b> "bee"</li>
+        <li><b class="ben">ben</b> "through vs <b class="bén">bén</b> "bone"</li>
        
       </ul>
 
@@ -291,7 +294,7 @@
           <p class="sound-explanation">
             is pronounced is pronounced [ɜ] or like a shorter version of
             <b>ir</b> as in British English "bird". Examples: <b>itase</b> "the
-            cup", <b>gin</b> "if".
+            cup", <b class="gin">gin</b> "if".
           </p>
         </div>
 
@@ -512,8 +515,8 @@
       <li>(short) <b>brís</b> "breast" vs (long) <b>brís</b> "soup's" (<b>brí-s</b>) cf <b>brí</b> "soup"</li>
       <li>(short) <b>brés</b> "roach" vs (long) <b>brés</b> "slopes" (<b>bré-s</b>) cf <b>bré</b> "slope"</li>
       <li>(short) <b>bréd</b> "broad" vs (long) <b>bréd</b> "squeezed" (<b>bré-d</b>) cf <b>qebré</b> "to squeeze"</li>
-      <li>(short) <b>bos</b> "void" vs (long) <b>bos</b> "balls" (<b>bo-s</b>) cf <b>bo</b> "ball"</li>
-      <li>(short) <b>blos</b> "buxom girl" vs (long) <b></b> "" (<b></b>) cf <b></b> ""</li>
+      <li>(short) <b>bos</b> "void" vs (long) <b class="bos">bos</b> "balls" (<b>bo-s</b>) cf <b>bo</b> "ball"</li>
+      <li>(short) <b>blos</b> "buxom girl" vs (long) <b>blos</b> "blows" (<b>blo-s</b>) cf <b>qebhlo</b> "to blow"</li>
       <li>(short) <b>bas</b> "doormat" vs (long) <b>bas</b> "bleated" (quoted past) (<b>ba-s</b>) cf <b>qebha</b> "to bleat"</li>
       <li>(short) <b>abhéd</b> "delay" vs (long) <b>abhéd</b> "astonished" (<b>abhé-d</b>) cf <b>qeabhé</b> "to astonish"</li>
 
@@ -521,15 +524,15 @@
     </ul>
 
 
-      <p>Lanwurq also has long vowels before word final syllabic nasals, in such cases the vowel <b>u</b> can be long: <b>ben</b> "through", <b>jung</b> "young", <b>hém</b> "home". When a suffix is attached to such words, the nasal ceases being syllabic and the vowel shortend:
+      <p>Lanwurq also has long vowels before word final syllabic nasals, in such cases the vowel <b>u</b> can be long: <b class="ben">ben</b> "through", <b>jung</b> "young", <b>hém</b> "home". When a suffix is attached to such words, the nasal ceases being syllabic and the vowel shortend:
     </p>
 
     <ul class="centering">
       <li><b>jung</b> "young" > <b>jungur</b> "younger"</li>
       <li><b>sauing</b> "song" > <b>sangs</b> "songs"</li>
-      <li><b>ben</b> "mountain" > <b>bens</b> "mountains"</li>
-      <li><b>hon</b> "hand" > <b>hons</b> "hands"</li>
-      <li><b>bén</b> "bone" > <b>béns</b> "bones"</li>
+      <li><b class="ben">ben</b> "mountain" > <b>bens</b> "mountains"</li>
+      <li><b class="hon">hon</b> "hand" > <b>hons</b> "hands"</li>
+      <li><b class="bén">bén</b> "bone" > <b>béns</b> "bones"</li>
       <li><b>sém</b> "fat, lard" > <b>séme</b> "fat"</li>
     </ul>
 
@@ -725,7 +728,7 @@ This rule still applies even when the proclitic is not directly attached to the 
       Unlike many European languages, Lanwurq does not bear any stress at all, each syllable is pronounced for roughly the same amount of time. This makes Lanwurq a syllable-timed language as opposed to a stress-timed one. Instead of stress, Lanwurq has a pitch accent system. There are two tones which are high (H) and low (L). No syllable has its tone set in stone. Rather the two tones can shift along a word depending on which kind of word it is (noun, adjective, verb) and what affixes are attached to the word. Typically a stem has two tones with the pattern HL or LH (HH or LL is not permitted). However with the addition of affixes a single word can bear several accented syllables. If the word ends in a syllabic consonant, then that consonant will bear a tone also which will be the opposite tone of the tone in the preceding syllable. Note that here I will use Ø to stand for an unaccented syllable. Words like prepositions, or function words like conjunctions and intensifiers bear no pitch at all: <b>abhún</b> (ØØ) "above", <b>biq</b> (Ø) "but, although, however", <b>féar</b> (ØØ) "quite". </p>
 
 <p>
-      Within nouns and adjectives there are two possible pitch patterns which are HL or LH. The most common pattern is for a noun to have the LH pattern (or just L if the noun is monosyllabic) where the first syllable has a low tone and the second syllable has a high tone: <b>duiar</b> (LH) "door", <b>hon</b> (LHL). When a prefix is attached to these words then the high tone falls on the prefix and a low tone falls on the first syllable of the word, with following syllables being unaccented:  <b>iduiar</b> (HLØ) "the door", <b>ihon</b> (HLØØ) "the hand".</p>
+      Within nouns and adjectives there are two possible pitch patterns which are HL or LH. The most common pattern is for a noun to have the LH pattern (or just L if the noun is monosyllabic) where the first syllable has a low tone and the second syllable has a high tone: <b>duiar</b> (LH) "door", <b class="hon">hon</b> (LHL). When a prefix is attached to these words then the high tone falls on the prefix and a low tone falls on the first syllable of the word, with following syllables being unaccented:  <b>iduiar</b> (HLØ) "the door", <b>ihon</b> (HLØØ) "the hand".</p>
 
 <p>Nouns and adjectives with the HL patterns bear the high tone on the first syllable and the low tone on the second syllable (or just H if the noun is monosyllabic). This is the more marked pattern as the first vowel in the noun/adjective must be long or before a glottal stop.</p>
 
@@ -753,7 +756,7 @@ tone is assigned by how far away they are from the beginning of the verb. If the
 <ul class="centering">
 <li><b>féður</b> "father" > <b>iféður</b> "the father"</li>
 <li><b>duiar</b> "door" > <b>iduiar</b> "the door"</li>
-<li><b>hon</b> "hand" > <b>ihon</b> "the hand"</li>
+<li><b class="hon">hon</b> "hand" > <b>ihon</b> "the hand"</li>
 </ul>
 
 <h4>Shifting Pitch</h4>
@@ -981,7 +984,7 @@ tone is assigned by how far away they are from the beginning of the verb. If the
         </div>
 
         <div class="letter-and-name">
-          <p><b>hon</b> hand</p>
+          <p><b class="hon">hon</b> hand</p>
           <p><b>hons</b> hands</p>
         </div>
 
@@ -1002,6 +1005,12 @@ tone is assigned by how far away they are from the beginning of the verb. If the
 
     </main>
 
+    <audio>
+
+
     <script src="index.js"></script>
+
+     <script src="audio.js"></script>
+  
   </body>
 </html>
