@@ -1,3 +1,14 @@
+let upfrú = new Audio("upfrú.mp3");
+let upfrú1 = document.getElementsByClassName('upfrú')
+
+for(let i= 0; i < upfrú1.length; i++){
+
+  upfrú1[i].onclick = function() {
+  upfrú.play();
+}
+}
+
+
 let scañsn = new Audio("scañsn.mp3");
 
 document.getElementById('scañsn').onclick = function() {
@@ -88,7 +99,7 @@ let cor = new Audio("cor.mp3");
 document.getElementById('cor').onclick = function() {
   cor.play();
 }
-/*
+
 let fron = new Audio("fron.mp3");
 
 document.getElementById('fron').onclick = function() {
@@ -120,12 +131,6 @@ document.getElementById('qeluqng').onclick = function() {
   qeluqng.play();
 }
 
-let upfrú = new Audio("upfrú.mp3");
-
-document.getElementById('upfrú').onclick = function() {
-  upfrú.play();
-}
-
 let blúam = new Audio("blúam.mp3");
 
 document.getElementById('blúam').onclick = function() {
@@ -138,14 +143,17 @@ document.getElementById('suin').onclick = function() {
   suin.play();
 }
 
-let stuio = new Audio("stuio.mp3");
 
-document.getElementsByClassName('stuio')[0].onclick = function() {
+let stuio = new Audio("stuio.mp3");
+let stuio1 = document.getElementsByClassName('stuio')
+
+for(let i= 0; i < stuio1.length; i++){
+
+  stuio1[i].onclick = function() {
   stuio.play();
 }
-document.getElementsByClassName('stuio')[1].onclick = function() {
-  stuio.play();
 }
+
 
 
 let warym = new Audio("warym.mp3");
@@ -172,6 +180,94 @@ document.getElementById('aoje').onclick = function() {
   aoje.play();
 }
 
+
+let strauing = new Audio("strauing.mp3");
+
+document.getElementById('strauing').onclick = function() {
+  strauing.play();
+}
+
+let lauing = new Audio("lauing.mp3");
+
+document.getElementsByClassName('lauing')[0].onclick = function() {
+  lauing.play();
+}
+document.getElementsByClassName('lauing')[1].onclick = function() {
+  lauing.play();
+}
+document.getElementsByClassName('lauing')[2].onclick = function() {
+  lauing.play();
+}
+
+let réuing = new Audio("réuing.mp3");
+
+document.getElementsByClassName('réuing')[0].onclick = function() {
+  réuing.play();
+}
+document.getElementsByClassName('réuing')[1].onclick = function() {
+  réuing.play();
+}
+
+let ij = new Audio("ij.mp3");
+
+document.getElementById('ij').onclick = function() {
+  ij.play();
+}
+
+let mijns = new Audio("mijns.mp3");
+
+document.getElementById('mijns').onclick = function() {
+  mijns.play();
+}
+
+
+
+let tój = new Audio("tój.mp3");
+
+document.getElementById('tój').onclick = function() {
+  tój.play();
+}
+
+let plój = new Audio("plój.mp3");
+
+document.getElementById('plój').onclick = function() {
+  plój.play();
+}
+
+let derój = new Audio("derój.mp3");
+
+document.getElementById('derój').onclick = function() {
+  derój.play();
+}
+
+let qetrý = new Audio("qetrý.mp3");
+
+document.getElementById('qetrý').onclick = function() {
+  qetrý.play();
+}
+
+
+
+let hiuing = new Audio("hiuing.mp3");
+let hiuing1 = document.getElementsByClassName('hiuing')
+
+for(let i= 0; i < hiuing1.length; i++){
+
+  hiuing1[i].onclick = function() {
+  hiuing.play();
+}
+}
+
+let mý = new Audio("mý.mp3");
+
+document.getElementById('mý').onclick = function() {
+  mý.play();
+}
+
+
+
+
+
 let qeteo = new Audio("qeteo.mp3");
 
 document.getElementById('qeteo').onclick = function() {
@@ -195,19 +291,17 @@ let cood = new Audio("cood.mp3");
 document.getElementById('cood').onclick = function() {
   cood.play();
 }
+let muchuo = new Audio("muchuo.mp3");
+
+document.getElementById('muchuo').onclick = function() {
+  muchuo.play();
+}
+
 
 let qefóo = new Audio("qefóo.mp3");
 
 document.getElementById('qefóo').onclick = function() {
   qefóo.play();
-}
-
-
-
-let muchuo = new Audio("muchuo.mp3");
-
-document.getElementById('muchuo').onclick = function() {
-  muchuo.play();
 }
 
 let sýoñ = new Audio("sýoñ.mp3");
@@ -216,6 +310,17 @@ document.getElementById('sýoñ').onclick = function() {
   sýoñ.play();
 }
 
+
+let qesphúo = new Audio("qesphúo.mp3");
+
+document.getElementById('qesphúo').onclick = function() {
+  qesphúo.play();
+}
+
+
+
+
+/*
 let eiiojn = new Audio("eiiojn.mp3");
 
 document.getElementById('eiiojn').onclick = function() {
@@ -2089,3 +2194,5 @@ document.getElementsByClassName('qechen')[1].onclick = function() {
 document.getElementsByClassName('qechen')[2].onclick = function() {
   qechen.play();
 }
+
+
