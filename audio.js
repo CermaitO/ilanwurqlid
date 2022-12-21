@@ -1,3 +1,320 @@
+let sijlafon = new Audio("sijlafon.mp3");
+
+document.getElementById('sijlafon').onclick = function() {
+  sijlafon.play();
+}
+
+let sibra = new Audio("sibra.mp3");
+
+document.getElementById('sibra').onclick = function() {
+  sibra.play();
+}
+
+
+
+let qijara = new Audio("qijara.mp3");
+let qijara1 = document.getElementsByClassName('qijara')
+
+for(let i= 0; i < qijara1.length; i++){
+
+  qijara1[i].onclick = function() {
+  qijara.play();
+}
+}
+
+
+let hos = new Audio("hos.mp3");
+
+document.getElementById('hos').onclick = function() {
+  hos.play();
+}
+
+let hós = new Audio("hós.mp3");
+
+document.getElementById('hós').onclick = function() {
+  hós.play();
+}
+
+let bobhe = new Audio("bobhe.mp3");
+
+document.getElementById('bobhe').onclick = function() {
+  bobhe.play();
+}
+let bóbhe = new Audio("bóbhe.mp3");
+
+document.getElementById('bóbhe').onclick = function() {
+  bóbhe.play();
+}
+let hus = new Audio("hus.mp3");
+
+document.getElementById('hus').onclick = function() {
+  hus.play();
+}
+let hús = new Audio("hús.mp3");
+
+document.getElementById('hús').onclick = function() {
+  hús.play();
+}
+
+
+let hon = new Audio("hon.mp3");
+let hon1 = document.getElementsByClassName('hon')
+
+for(let i= 0; i < hon1.length; i++){
+
+  hon1[i].onclick = function() {
+  hon.play();
+}
+}
+
+
+let hón = new Audio("hón.mp3");
+
+document.getElementById('hón').onclick = function() {
+  hón.play();
+}
+let hen = new Audio("hen.mp3");
+
+document.getElementById('hen').onclick = function() {
+  hen.play();
+}
+let hén = new Audio("hén.mp3");
+
+document.getElementById('hén').onclick = function() {
+  hén.play();
+}
+let grun = new Audio("grun.mp3");
+
+document.getElementById('grun').onclick = function() {
+  grun.play();
+}
+let grún = new Audio("grún.mp3");
+
+document.getElementById('grún').onclick = function() {
+  grún.play();
+}
+let gof = new Audio("gof.mp3");
+
+document.getElementById('gof').onclick = function() {
+  gof.play();
+}
+
+let góf = new Audio("góf.mp3");
+
+document.getElementById('góf').onclick = function() {
+  góf.play();
+}
+let go = new Audio("go.mp3");
+
+document.getElementById('go').onclick = function() {
+  go.play();
+}
+let gó = new Audio("gó.mp3");
+
+document.getElementById('gó').onclick = function() {
+  gó.play();
+}
+let goq = new Audio("goq.mp3");
+
+document.getElementById('goq').onclick = function() {
+  goq.play();
+}
+let góq = new Audio("góq.mp3");
+
+document.getElementById('góq').onclick = function() {
+  góq.play();
+}
+
+
+
+let gin = new Audio("gin.mp3");
+let gin1 = document.getElementsByClassName('gin')
+
+for(let i= 0; i < gin1.length; i++){
+
+  gin1[i].onclick = function() {
+  gin.play();
+}
+}
+
+
+let gín = new Audio("gín.mp3");
+
+document.getElementById('gín').onclick = function() {
+  gín.play();
+}
+let ged = new Audio("ged.mp3");
+
+document.getElementById('ged').onclick = function() {
+  ged.play();
+}
+let géd = new Audio("géd.mp3");
+
+document.getElementById('géd').onclick = function() {
+  géd.play();
+}
+let fiq = new Audio("fiq.mp3");
+
+document.getElementById('fiq').onclick = function() {
+  fiq.play();
+}
+let fíq = new Audio("fíq.mp3");
+
+document.getElementById('fíq').onclick = function() {
+  fíq.play();
+}
+let en = new Audio("en.mp3");
+
+document.getElementById('en').onclick = function() {
+  en.play();
+}
+let én = new Audio("én.mp3");
+
+document.getElementById('én').onclick = function() {
+  én.play();
+}
+let eq = new Audio("eq.mp3");
+
+document.getElementById('eq').onclick = function() {
+  eq.play();
+}
+let éq = new Audio("éq.mp3");
+
+document.getElementById('éq').onclick = function() {
+  éq.play();
+}
+let dos = new Audio("dos.mp3");
+
+document.getElementById('dos').onclick = function() {
+  dos.play();
+}
+let dós = new Audio("dós.mp3");
+
+document.getElementById('dós').onclick = function() {
+  dós.play();
+}
+let cus = new Audio("cus.mp3");
+
+document.getElementById('cus').onclick = function() {
+  cus.play();
+}
+let cús = new Audio("cús.mp3");
+
+document.getElementById('cús').onclick = function() {
+  cús.play();
+}
+let con = new Audio("concon.mp3");
+
+document.getElementById('con').onclick = function() {
+  con.play();
+}
+let cón = new Audio("cón.mp3");
+
+document.getElementById('cón').onclick = function() {
+  cón.play();
+}
+let buch = new Audio("buch.mp3");
+
+document.getElementById('buch').onclick = function() {
+  buch.play();
+}
+let búch = new Audio("búch.mp3");
+
+document.getElementById('búch').onclick = function() {
+  búch.play();
+}
+let bred = new Audio("bred.mp3");
+
+document.getElementById('bred').onclick = function() {
+  bred.play();
+}
+
+
+let bréd = new Audio("bréd.mp3");
+let brédd = document.getElementsByClassName('bréd')
+
+for(let i= 0; i < brédd.length; i++){
+
+  brédd[i].onclick = function() {
+  bréd.play();
+}
+}
+
+
+
+
+
+let bós = new Audio("bós.mp3");
+
+document.getElementById('bós').onclick = function() {
+  bós.play();
+}
+let bon = new Audio("bon.mp3");
+
+document.getElementById('bon').onclick = function() {
+  bon.play();
+}
+let bón = new Audio("bón.mp3");
+
+document.getElementById('bón').onclick = function() {
+  bón.play();
+}
+let bi = new Audio("bi.mp3");
+
+document.getElementById('bi').onclick = function() {
+  bi.play();
+}
+
+let bí = new Audio("bí.mp3");
+
+document.getElementById('bí').onclick = function() {
+  bí.play();
+}
+
+
+let ben = new Audio("ben.mp3");
+let ben1 = document.getElementsByClassName('ben')
+
+for(let i= 0; i < ben1.length; i++){
+
+  ben1[i].onclick = function() {
+  ben.play();
+}
+}
+
+
+let bén = new Audio("bén.mp3");
+let bén1 = document.getElementsByClassName('bén')
+
+for(let i= 0; i < bén1.length; i++){
+
+  bén1[i].onclick = function() {
+  bén.play();
+}
+}
+
+
+
+
+let qechen = new Audio("qechen.mp3");
+let qechen1 = document.getElementsByClassName('qechen')
+
+for(let i= 0; i < qechen1.length; i++){
+
+  qechen1[i].onclick = function() {
+  qechen.play();
+}
+}
+
+
+
+
+
+
+
+
+
+
 let upfrú = new Audio("upfrú.mp3");
 let upfrú1 = document.getElementsByClassName('upfrú')
 
@@ -33,18 +350,16 @@ document.getElementById('qeinghe').onclick = function() {
   qeinghe.play();
 }
 
+
+
 let aqurcaq = new Audio("aqurcaq.mp3");
+let aqurcaq1 = document.getElementsByClassName('aqurcaq')
 
-document.getElementsByClassName('aqurcaq')[0].onclick = function() {
+for(let i= 0; i < aqurcaq1.length; i++){
+
+  aqurcaq1[i].onclick = function() {
   aqurcaq.play();
 }
-
-document.getElementsByClassName('aqurcaq')[1].onclick = function() {
-  aqurcaq.play();
-}
-
-document.getElementsByClassName('aqurcaq')[2].onclick = function() {
-  aqurcaq.play();
 }
 
 
@@ -60,16 +375,16 @@ document.getElementById('qebren').onclick = function() {
   qebren.play();
 }
 
-let géq = new Audio("géq.mp3");
 
-document.getElementsByClassName('géq')[0].onclick = function() {
+
+let géq = new Audio("géq.mp3");
+let géq1 = document.getElementsByClassName('géq')
+
+for(let i= 0; i < géq1.length; i++){
+
+  géq1[i].onclick = function() {
   géq.play();
 }
-document.getElementsByClassName('géq')[1].onclick = function() {
-  géq.play();
-}
-document.getElementsByClassName('géq')[2].onclick = function() {
-  géq.play();
 }
 
 
@@ -85,13 +400,16 @@ document.getElementById('qeghí').onclick = function() {
   qeghí.play();
 }
 
-let ín = new Audio("ín.mp3");
 
-document.getElementsByClassName('ín')[0].onclick = function() {
+
+let ín = new Audio("ín.mp3");
+let ín1 = document.getElementsByClassName('ín')
+
+for(let i= 0; i < ín1.length; i++){
+
+  ín1[i].onclick = function() {
   ín.play();
 }
-document.getElementsByClassName('ín')[1].onclick = function() {
-  ín.play();
 }
 
 let cor = new Audio("cor.mp3");
@@ -106,16 +424,17 @@ document.getElementById('fron').onclick = function() {
   fron.play();
 }
 
-let bórah = new Audio("bórah.mp3");
 
-document.getElementsByClassName('bórah')[0].onclick = function() {
+
+
+let bórah = new Audio("bórah.mp3");
+let bórah1 = document.getElementsByClassName('bórah')
+
+for(let i= 0; i < bórah1.length; i++){
+
+  bórah1[i].onclick = function() {
   bórah.play();
 }
-document.getElementsByClassName('bórah')[1].onclick = function() {
-  bórah.play();
-}
-document.getElementsByClassName('bórah')[2].onclick = function() {
-  bórah.play();
 }
 
 
@@ -187,25 +506,30 @@ document.getElementById('strauing').onclick = function() {
   strauing.play();
 }
 
-let lauing = new Audio("lauing.mp3");
 
-document.getElementsByClassName('lauing')[0].onclick = function() {
+
+let lauing = new Audio("lauing.mp3");
+let lauing1 = document.getElementsByClassName('lauing')
+
+for(let i= 0; i < lauing1.length; i++){
+
+  lauing1[i].onclick = function() {
   lauing.play();
 }
-document.getElementsByClassName('lauing')[1].onclick = function() {
-  lauing.play();
 }
-document.getElementsByClassName('lauing')[2].onclick = function() {
-  lauing.play();
-}
+
+
+
+
 
 let réuing = new Audio("réuing.mp3");
+let réuing1 = document.getElementsByClassName('réuing')
 
-document.getElementsByClassName('réuing')[0].onclick = function() {
+for(let i= 0; i < réuing1.length; i++){
+
+  réuing1[i].onclick = function() {
   réuing.play();
 }
-document.getElementsByClassName('réuing')[1].onclick = function() {
-  réuing.play();
 }
 
 let ij = new Audio("ij.mp3");
@@ -320,7 +644,7 @@ document.getElementById('qesphúo').onclick = function() {
 
 
 
-/*
+
 let eiiojn = new Audio("eiiojn.mp3");
 
 document.getElementById('eiiojn').onclick = function() {
@@ -358,12 +682,27 @@ document.getElementById('qetóv').onclick = function() {
 }
 
 let breður = new Audio("breður.mp3");
+let breður1 = document.getElementsByClassName('breður')
 
-document.getElementById('breður').onclick = function() {
+for(let i = 0; i < breður1.length; i++){
+
+  breður1[i].onclick = function() {
   breður.play();
 }
+}
 
-let qeréður = new Audio("qeréður.mp3");
+let bos = new Audio("bos.mp3");
+let bos1 = document.getElementsByClassName('boss')
+
+for(let i = 0; i < bos1.length; i++){
+
+  bos1[i].onclick = function() {
+  bos.play();
+}
+}
+
+
+let qeréður = new Audio("réður.mp3");
 
 document.getElementById('qeréður').onclick = function() {
   qeréður.play();
@@ -375,7 +714,7 @@ document.getElementById('géar').onclick = function() {
   géar.play();
 }
 
-let bór = new Audio("bór.mp3");
+let bór = new Audio("bó.mp3");
 
 document.getElementById('bór').onclick = function() {
   bór.play();
@@ -383,8 +722,8 @@ document.getElementById('bór').onclick = function() {
 
 let laveróch = new Audio("laveróch.mp3");
 
-document.getElementById('qesphúo').onclick = function() {
-  qesphúo.play();
+document.getElementById('laveróch').onclick = function() {
+  laveróch.play();
 }
 
 let gú = new Audio("gú.mp3");
@@ -410,16 +749,19 @@ let gumoñ = new Audio("gumoñ.mp3");
 document.getElementById('gumoñ').onclick = function() {
   gumoñ.play();
 }
+
 let gýo = new Audio("gýo.mp3");
 
 document.getElementById('gýo').onclick = function() {
   gýo.play();
 }
+
 let buicscho = new Audio("buicscho.mp3");
 
 document.getElementById('buicscho').onclick = function() {
   buicscho.play();
 }
+
 let díd = new Audio("díd.mp3");
 
 document.getElementById('díd').onclick = function() {
@@ -445,19 +787,19 @@ let grús = new Audio("grús.mp3");
 document.getElementById('grús').onclick = function() {
   grús.play();
 }
-let grús1 = new Audio("grús1.mp3");
+let grús1 = new Audio("hrús1.mp3");
 
 document.getElementById('grús1').onclick = function() {
   grús1.play();
 }
 
-let gós = new Audio("gós.mp3");
+let gós = new Audio("gos.mp3");
 
 document.getElementById('gós').onclick = function() {
   gós.play();
 }
 
-let gós1 = new Audio("gós1.mp3");
+let gós1 = new Audio("gos1.mp3");
 
 document.getElementById('gós1').onclick = function() {
   gós1.play();
@@ -469,7 +811,7 @@ document.getElementById('dríd').onclick = function() {
   dríd.play();
 }
 
-let dríd1 = new Audio("wida.mp3");
+let dríd1 = new Audio("dríd1.mp3");
 
 document.getElementById('dríd1').onclick = function() {
   dríd1.play();
@@ -523,11 +865,7 @@ document.getElementById('brés1').onclick = function() {
   brés1.play();
 }
 
-let bréd = new Audio("bréd.mp3");
 
-document.getElementById('bréd').onclick = function() {
-  bréd.play();
-}
 
 let bréd1 = new Audio("bréd1.mp3");
 
@@ -535,17 +873,13 @@ document.getElementById('bréd1').onclick = function() {
   bréd1.play();
 }
 
-let bos = new Audio("bos.mp3");
+let boss = new Audio("bos0.mp3");
 
 document.getElementById('bos').onclick = function() {
-  bos.play();
+  boss.play();
 }
 
-let bos1 = new Audio("bos1.mp3");
 
-document.getElementById('bos1').onclick = function() {
-  bos1.play();
-}
 
 let blos = new Audio("blos.mp3");
 
@@ -571,13 +905,85 @@ let bas1 = new Audio("bas1.mp3");
 document.getElementById('bas1').onclick = function() {
   bas1.play();
 }
-let jung = new Audio("jung.mp3");
 
-document.getElementsByClassName('jung')[0].onclick = function() {
+let abhéd = new Audio("abhéd.mp3");
+
+document.getElementById('abhéd').onclick = function() {
+  abhéd.play();
+}
+
+let abhéd1 = new Audio("abhéd1.mp3");
+
+document.getElementById('abhéd1').onclick = function() {
+  abhéd1.play();
+}
+
+
+
+
+let jung = new Audio("jung.mp3");
+let jung1 = document.getElementsByClassName('jung')
+
+for(let i = 0; i < jung1.length; i++){
+
+  jung1[i].onclick = function() {
   jung.play();
 }
-document.getElementsByClassName('jung')[1].onclick = function() {
-  jung.play();
+}
+
+let hém = new Audio("hém.mp3");
+
+document.getElementById('hém').onclick = function() {
+  hém.play();
+}
+
+let jungur = new Audio("jungur.mp3");
+
+document.getElementById('jungur').onclick = function() {
+  jungur.play();
+}
+
+
+
+let sauing = new Audio("sauing.mp3");
+let sauing1 = document.getElementsByClassName('sauing')
+
+for(let i = 0; i < sauing1.length; i++){
+
+  sauing1[i].onclick = function() {
+  sauing.play();
+}
+}
+
+let sangs = new Audio("sangs.mp3");
+let sangs1 = document.getElementsByClassName('sangs')
+
+for(let i = 0; i < sangs1.length; i++){
+
+  sangs1[i].onclick = function() {
+  sangs.play();
+}
+}
+
+
+let bens = new Audio("bens.mp3");
+
+document.getElementById('bens').onclick = function() {
+  bens.play();
+}
+
+
+
+let sém = new Audio("sém.mp3");
+
+document.getElementById('sém').onclick = function() {
+  sém.play();
+}
+
+let séme = new Audio("séme.mp3");
+
+document.getElementById('séme').onclick = function() {
+  séme.play();
 }
 
 let hons = new Audio("hons.mp3");
@@ -592,17 +998,9 @@ document.getElementById('béns').onclick = function() {
   béns.play();
 }
 
-let sém = new Audio("sém.mp3");
 
-document.getElementById('sém').onclick = function() {
-  sém.play();
-}
 
-let séme = new Audio("séme.mp3");
 
-document.getElementById('séme').onclick = function() {
-  séme.play();
-}
 
 let adwurs = new Audio("adwurs.mp3");
 
@@ -658,10 +1056,10 @@ document.getElementById('aobnc').onclick = function() {
   aobnc.play();
 }
 
-let in = new Audio("bas1.mp3");
+let inn = new Audio("in.mp3");
 
 document.getElementById('in').onclick = function() {
-  in.play();
+  inn.play();
 }
 
 let ewsn = new Audio("ewsn.mp3");
@@ -718,6 +1116,12 @@ document.getElementById('iôm').onclick = function() {
   iôm.play();
 }
 
+let ighidsn = new Audio("ighid sn.mp3");
+
+document.getElementById('ighidsn').onclick = function() {
+  ighidsn.play();
+}
+
 let imañcheschpn = new Audio("imañcheschpn.mp3");
 
 document.getElementById('imañcheschpn').onclick = function() {
@@ -754,11 +1158,18 @@ document.getElementById('wuonócm').onclick = function() {
   wuonócm.play();
 }
 
-let nebh = new Audio("nebh.mp3");
 
-document.getElementById('nebh').onclick = function() {
+
+let nebh = new Audio("nebh.mp3");
+let nebh1 = document.getElementsByClassName('nebh')
+
+for(let i = 0; i < nebh1.length; i++){
+
+  nebh1[i].onclick = function() {
   nebh.play();
 }
+}
+
 
 let sarc = new Audio("sarc.mp3");
 
@@ -796,7 +1207,7 @@ document.getElementById('adnehodiq').onclick = function() {
   adnehodiq.play();
 }
 
-let qegralóh = new Audio("qegralóh.mp3");
+let qegralóh = new Audio("qegraloh.mp3");
 
 document.getElementById('qegralóh').onclick = function() {
   qegralóh.play();
@@ -823,11 +1234,7 @@ document.getElementById('qijés').onclick = function() {
   qijés.play();
 }
 
-let líq = new Audio("líq.mp3");
 
-document.getElementById('líq').onclick = function() {
-  líq.play();
-}
 
 let qeló = new Audio("qeló.mp3");
 
@@ -871,22 +1278,48 @@ document.getElementById('erse').onclick = function() {
   erse.play();
 }
 
-let wurd = new Audio("wurd.mp3");
+let tos = new Audio("tos.mp3");
 
-document.getElementById('wurd').onclick = function() {
+document.getElementById('tos').onclick = function() {
+  tos.play();
+}
+
+let líq = new Audio("líq.mp3");
+
+document.getElementById('líq').onclick = function() {
+  líq.play();
+}
+
+let wurd = new Audio("wurd.mp3");
+let wurd1 = document.getElementsByClassName('wurd')
+
+for(let i = 0; i < wurd1.length; i++){
+
+  wurd1[i].onclick = function() {
   wurd.play();
+}
 }
 
 let wurts = new Audio("wurts.mp3");
+let wurts1 = document.getElementsByClassName('wurts')
 
-document.getElementById('wurts').onclick = function() {
+for(let i = 0; i < wurts1.length; i++){
+
+  wurts1[i].onclick = function() {
   wurts.play();
+}
 }
 
 let tchech = new Audio("tchech.mp3");
 
 document.getElementById('tchech').onclick = function() {
   tchech.play();
+}
+
+let bóðwurq = new Audio("bóðwurq.mp3");
+
+document.getElementById('bóðwurq').onclick = function() {
+  bóðwurq.play();
 }
 
 let þuoge = new Audio("þuoge.mp3");
@@ -899,6 +1332,12 @@ let údþeghe = new Audio("údþeghe.mp3");
 
 document.getElementById('údþeghe').onclick = function() {
   údþeghe.play();
+}
+
+let jéar = new Audio("jéar.mp3");
+
+document.getElementById('jéar').onclick = function() {
+  jéar.play();
 }
 
 let nístte = new Audio("nístte.mp3");
@@ -937,10 +1376,12 @@ document.getElementById('qebhaccm').onclick = function() {
   qebhaccm.play();
 }
 
+
+
 let adé = new Audio("adé.mp3");
 
 document.getElementById('adé').onclick = function() {
-  þuoadée.play();
+  adé.play();
 }
 
 let addé = new Audio("addé.mp3");
@@ -985,10 +1426,10 @@ document.getElementById('qeóqm').onclick = function() {
   qeóqm.play();
 }
 
-let én = new Audio("én.mp3");
+let énn = new Audio("énn.mp3");
 
-document.getElementById('én').onclick = function() {
-  én.play();
+document.getElementById('énn').onclick = function() {
+  énn.play();
 }
 
 let sívn = new Audio("sívn.mp3");
@@ -997,11 +1438,7 @@ document.getElementById('sívn').onclick = function() {
   sívn.play();
 }
 
-let lauing = new Audio("lauing.mp3");
 
-document.getElementById('lauing').onclick = function() {
-  lauing.play();
-}
 
 let ísmaqng = new Audio("ísmaqng.mp3");
 
@@ -1015,6 +1452,8 @@ document.getElementById('óms').onclick = function() {
   óms.play();
 }
 
+
+
 let paarqn = new Audio("paarqn.mp3");
 
 document.getElementById('paarqn').onclick = function() {
@@ -1027,7 +1466,7 @@ document.getElementById('iphaarqn').onclick = function() {
   iphaarqn.play();
 }
 
-let biqoñ = new Audio("þuobiqoñge.mp3");
+let biqoñ = new Audio("biqoñ.mp3");
 
 document.getElementById('biqoñ').onclick = function() {
   biqoñ.play();
@@ -1067,6 +1506,12 @@ let biobe = new Audio("biobe.mp3");
 
 document.getElementById('biobe').onclick = function() {
   biobe.play();
+}
+
+let ioca = new Audio("ioca.mp3");
+
+document.getElementById('ioca').onclick = function() {
+  ioca.play();
 }
 
 let aogar = new Audio("aogar.mp3");
@@ -1129,10 +1574,52 @@ document.getElementById('grú').onclick = function() {
   grú.play();
 }
 
+let igrú = new Audio("igrú.mp3");
+
+document.getElementById('igrú').onclick = function() {
+  igrú.play();
+}
+
 let neps = new Audio("neps.mp3");
 
 document.getElementById('neps').onclick = function() {
   neps.play();
+}
+
+let bagh = new Audio("bagh.mp3");
+let bagh1 = document.getElementsByClassName('bagh')
+
+for(let i= 0; i < bagh1.length; i++){
+
+  bagh1[i].onclick = function() {
+  bagh.play();
+}
+}
+
+let buich = new Audio("buich.mp3");
+let buich1 = document.getElementsByClassName('buich')
+
+for(let i= 0; i < buich1.length; i++){
+
+  buich1[i].onclick = function() {
+  buich.play();
+}
+}
+
+let buics = new Audio("buics.mp3");
+let buics1 = document.getElementsByClassName('buics')
+
+for(let i= 0; i < buics1.length; i++){
+
+  buics1[i].onclick = function() {
+  buics.play();
+}
+}
+
+let bacs = new Audio("bacs.mp3");
+
+document.getElementById('bacs').onclick = function() {
+  bacs.play();
 }
 
 let naq = new Audio("naq.mp3");
@@ -1195,7 +1682,7 @@ document.getElementById('móghur').onclick = function() {
   móghur.play();
 }
 
-let isbhuich = new Audio("isbhuich.mp3");
+let isbhuich = new Audio("is bhuich.mp3");
 
 document.getElementById('isbhuich').onclick = function() {
   isbhuich.play();
@@ -1207,7 +1694,7 @@ document.getElementById('íschíqng').onclick = function() {
   íschíqng.play();
 }
 
-let ísnócíqng = new Audio("ísnócíqng.mp3");
+let ísnócíqng = new Audio("ísnó cíqng.mp3");
 
 document.getElementById('ísnócíqng').onclick = function() {
   ísnócíqng.play();
@@ -1236,7 +1723,7 @@ let schilóðm = new Audio("schilóðm.mp3");
 document.getElementById('schilóðm').onclick = function() {
   schilóðm.play();
 }
-
+/*
 let abhún = new Audio("abhún.mp3");
 
 document.getElementById('abhún').onclick = function() {
@@ -1887,312 +2374,6 @@ document.getElementById('músís').onclick = function() {
 
 
 
-let sijlafon = new Audio("sijlafon.mp3");
-
-document.getElementById('sijlafon').onclick = function() {
-  sijlafon.play();
-}
-
-let sibra = new Audio("sibra.mp3");
-
-document.getElementById('sibra').onclick = function() {
-  sibra.play();
-}
-
-let qijara = new Audio("qijara.mp3");
-
-document.getElementsByClassName('qijara')[0].onclick = function() {
-  qijara.play();
-}
-document.getElementsByClassName('qijara')[1].onclick = function() {
-  qijara.play();
-}
-
-let hos = new Audio("hos.mp3");
-
-document.getElementById('hos').onclick = function() {
-  hos.play();
-}
-
-let hós = new Audio("hós.mp3");
-
-document.getElementById('hós').onclick = function() {
-  hós.play();
-}
-
-let bobhe = new Audio("bobhe.mp3");
-
-document.getElementById('bobhe').onclick = function() {
-  bobhe.play();
-}
-let bóbhe = new Audio("bóbhe.mp3");
-
-document.getElementById('bóbhe').onclick = function() {
-  bóbhe.play();
-}
-let hus = new Audio("hus.mp3");
-
-document.getElementById('hus').onclick = function() {
-  hus.play();
-}
-let hús = new Audio("hús.mp3");
-
-document.getElementById('hús').onclick = function() {
-  hús.play();
-}
-let hon = new Audio("hon.mp3");
-
-document.getElementsByClassName('hon')[0].onclick = function() {
-  hon.play();
-}
-document.getElementsByClassName('hon')[1].onclick = function() {
-  hon.play();
-}
-document.getElementsByClassName('hon')[2].onclick = function() {
-  hon.play();
-}
-document.getElementsByClassName('hon')[3].onclick = function() {
-  hon.play();
-}
-document.getElementsByClassName('hon')[4].onclick = function() {
-  hon.play();
-}
-
-
-let hón = new Audio("hón.mp3");
-
-document.getElementById('hón').onclick = function() {
-  hón.play();
-}
-let hen = new Audio("hen.mp3");
-
-document.getElementById('hen').onclick = function() {
-  hen.play();
-}
-let hén = new Audio("hén.mp3");
-
-document.getElementById('hén').onclick = function() {
-  hén.play();
-}
-let grun = new Audio("grun.mp3");
-
-document.getElementById('grun').onclick = function() {
-  grun.play();
-}
-let grún = new Audio("grún.mp3");
-
-document.getElementById('grún').onclick = function() {
-  grún.play();
-}
-let gof = new Audio("gof.mp3");
-
-document.getElementById('gof').onclick = function() {
-  gof.play();
-}
-
-let góf = new Audio("góf.mp3");
-
-document.getElementById('góf').onclick = function() {
-  góf.play();
-}
-let go = new Audio("go.mp3");
-
-document.getElementById('go').onclick = function() {
-  go.play();
-}
-let gó = new Audio("gó.mp3");
-
-document.getElementById('gó').onclick = function() {
-  gó.play();
-}
-let goq = new Audio("goq.mp3");
-
-document.getElementById('goq').onclick = function() {
-  goq.play();
-}
-let góq = new Audio("góq.mp3");
-
-document.getElementById('góq').onclick = function() {
-  góq.play();
-}
-
-let gin = new Audio("gin.mp3");
-document.getElementsByClassName('gin')[0].onclick = function() {
-
-        gin.play();
-}
-document.getElementsByClassName('gin')[1].onclick = function() {
-
-        gin.play();
-}
-
-
-let gín = new Audio("gín.mp3");
-
-document.getElementById('gín').onclick = function() {
-  gín.play();
-}
-let ged = new Audio("ged.mp3");
-
-document.getElementById('ged').onclick = function() {
-  ged.play();
-}
-let géd = new Audio("géd.mp3");
-
-document.getElementById('géd').onclick = function() {
-  géd.play();
-}
-let fiq = new Audio("fiq.mp3");
-
-document.getElementById('fiq').onclick = function() {
-  fiq.play();
-}
-let fíq = new Audio("fíq.mp3");
-
-document.getElementById('fíq').onclick = function() {
-  fíq.play();
-}
-let en = new Audio("en.mp3");
-
-document.getElementById('en').onclick = function() {
-  en.play();
-}
-let én = new Audio("én.mp3");
-
-document.getElementById('én').onclick = function() {
-  én.play();
-}
-let eq = new Audio("eq.mp3");
-
-document.getElementById('eq').onclick = function() {
-  eq.play();
-}
-let éq = new Audio("éq.mp3");
-
-document.getElementById('éq').onclick = function() {
-  éq.play();
-}
-let dos = new Audio("dos.mp3");
-
-document.getElementById('dos').onclick = function() {
-  dos.play();
-}
-let dós = new Audio("dós.mp3");
-
-document.getElementById('dós').onclick = function() {
-  dós.play();
-}
-let cus = new Audio("cus.mp3");
-
-document.getElementById('cus').onclick = function() {
-  cus.play();
-}
-let cús = new Audio("cús.mp3");
-
-document.getElementById('cús').onclick = function() {
-  cús.play();
-}
-let con = new Audio("concon.mp3");
-
-document.getElementById('con').onclick = function() {
-  con.play();
-}
-let cón = new Audio("cón.mp3");
-
-document.getElementById('cón').onclick = function() {
-  cón.play();
-}
-let buch = new Audio("buch.mp3");
-
-document.getElementById('buch').onclick = function() {
-  buch.play();
-}
-let búch = new Audio("búch.mp3");
-
-document.getElementById('búch').onclick = function() {
-  búch.play();
-}
-let bred = new Audio("bred.mp3");
-
-document.getElementById('bred').onclick = function() {
-  bred.play();
-}
-let bréd = new Audio("bréd.mp3");
-
-document.getElementById('bréd').onclick = function() {
-  bréd.play();
-}
-let bos = new Audio("bos.mp3");
-
-document.getElementsByClassName('bos')[0].onclick = function() {
-  bos.play();
-}
-document.getElementsByClassName('bos')[1].onclick = function() {
-  bos.play();
-}
-
-let bós = new Audio("bós.mp3");
-
-document.getElementById('bós').onclick = function() {
-  bós.play();
-}
-let bon = new Audio("bon.mp3");
-
-document.getElementById('bon').onclick = function() {
-  bon.play();
-}
-let bón = new Audio("bón.mp3");
-
-document.getElementById('bón').onclick = function() {
-  bón.play();
-}
-let bi = new Audio("bi.mp3");
-
-document.getElementById('bi').onclick = function() {
-  bi.play();
-}
-let bí = new Audio("bí.mp3");
-
-document.getElementById('bí').onclick = function() {
-  bí.play();
-}
-let ben = new Audio("ben.mp3");
-
-document.getElementsByClassName('ben')[0].onclick = function() {
-  ben.play();
-}
-document.getElementsByClassName('ben')[1].onclick = function() {
-  ben.play();
-}
-document.getElementsByClassName('ben')[2].onclick = function() {
-  ben.play();
-}
-
-let bén = new Audio("bén.mp3");
-
-document.getElementsByClassName('bén')[0].onclick = function() {
-  bén.play();
-}
-document.getElementsByClassName('bén')[1].onclick = function() {
-  bén.play();
-}
-document.getElementsByClassName('bén')[2].onclick = function() {
-  bén.play();
-}
 
 
 */
-
-let qechen = new Audio("qechen.mp3");
-
-document.getElementsByClassName('qechen')[0,1,2].onclick = function() {
-  qechen.play();
-}
-document.getElementsByClassName('qechen')[1].onclick = function() {
-  qechen.play();
-}
-document.getElementsByClassName('qechen')[2].onclick = function() {
-  qechen.play();
-}
-
-
