@@ -999,9 +999,13 @@ document.getElementById('séme').onclick = function() {
 }
 
 let hons = new Audio("hons.mp3");
+let hons1 = document.getElementsByClassName('hons')
 
-document.getElementById('hons').onclick = function() {
+for(let i = 0; i < hons1.length; i++){
+
+  hons1[i].onclick = function() {
   hons.play();
+}
 }
 
 let béns = new Audio("béns.mp3");
@@ -1427,9 +1431,13 @@ document.getElementById('aqsrlíd').onclick = function() {
 }
 
 let óm = new Audio("óm.mp3");
+let óm1 = document.getElementsByClassName('óm')
 
-document.getElementById('óm').onclick = function() {
+for(let i = 0; i < óm1.length; i++){
+
+  óm1[i].onclick = function() {
   óm.play();
+}
 }
 
 let qeóqm = new Audio("qeóqm.mp3");
@@ -1777,11 +1785,11 @@ for(let i= 0; i < duiar1.length; i++){
 }
 
 let iduiar = new Audio("iduiar.mp3");
-let iduiar1 = document.getElementsByClassName('iduiar')
+let iduiar2 = document.getElementsByClassName('iduiar')
 
-for(let i= 0; i < iduiar1.length; i++){
+for(let i= 0; i < iduiar2.length; i++){
 
-  iduiar1[i].onclick = function() {
+  iduiar2[i].onclick = function() {
   iduiar.play();
 }
 }
@@ -1925,12 +1933,31 @@ document.getElementById('qescrív').onclick = function() {
   qescrív.play();
 }
 
+let amscrívn = new Audio("amscrívn.mp3");
+
+document.getElementById('amscrívn').onclick = function() {
+  amscrívn.play();
+}
+
+let amfliqn = new Audio("amfliqn.mp3");
+
+document.getElementById('amfliqn').onclick = function() {
+  amfliqn.play();
+}
+
 let qefliq = new Audio("qefliq.mp3");
 
 document.getElementById('qefliq').onclick = function() {
   qefliq.play();
 }
-/*
+
+let oñascrív = new Audio("oñascrív.mp3");
+
+document.getElementById('oñascrív').onclick = function() {
+  oñascrív.play();
+}
+
+
 let breðije = new Audio("breðije.mp3");
 
 document.getElementById('breðije').onclick = function() {
@@ -1985,7 +2012,7 @@ document.getElementById('scúar1').onclick = function() {
   scúar1.play();
 }
 
-let scúar2 = new Audio("scúar2.mp3");
+let scúar2 = new Audio("scúar.mp3");
 
 document.getElementById('scúar2').onclick = function() {
   scúar2.play();
@@ -2058,15 +2085,23 @@ document.getElementById('wurtscho').onclick = function() {
 }
 
 let í = new Audio("í.mp3");
+let í1 = document.getElementsByClassName('í')
 
-document.getElementById('í').onclick = function() {
+for(let i = 0; i < í1.length; i++){
+
+  í1[i].onclick = function() {
   í.play();
+}
 }
 
 let bliní = new Audio("bliní.mp3");
+let bliní1 = document.getElementsByClassName('bliní')
 
-document.getElementById('bliní').onclick = function() {
+for(let i = 0; i < bliní1.length; i++){
+
+  bliní1[i].onclick = function() {
   bliní.play();
+}
 }
 
 let lí = new Audio("lí.mp3");
@@ -2079,6 +2114,12 @@ let qebhi = new Audio("qebhi.mp3");
 
 document.getElementById('qebhi').onclick = function() {
   qebhi.play();
+}
+
+let mi = new Audio("mi.mp3");
+
+document.getElementById('mi').onclick = function() {
+  mi.play();
 }
 
 let dwauing = new Audio("dwauing.mp3");
@@ -2105,29 +2146,16 @@ document.getElementById('fangur').onclick = function() {
   fangur.play();
 }
 
-let lauing = new Audio("lauing.mp3");
 
-document.getElementById('lauing').onclick = function() {
-  lauing.play();
+
+let ilangist = new Audio("langist.mp3");
+
+document.getElementById('ilangist').onclick = function() {
+  ilangist.play();
 }
 
-let langist = new Audio("langist.mp3");
 
-document.getElementById('langist').onclick = function() {
-  langist.play();
-}
 
-let réuing = new Audio("réuing.mp3");
-
-document.getElementById('réuing').onclick = function() {
-  réuing.play();
-}
-
-let hiuing = new Audio("hiuing.mp3");
-
-document.getElementById('hiuing').onclick = function() {
-  hiuing.play();
-}
 
 let réngs = new Audio("réngs.mp3");
 
@@ -2265,6 +2293,12 @@ let húliqs = new Audio("húliqs.mp3");
 
 document.getElementById('húliqs').onclick = function() {
   húliqs.play();
+}
+
+let cú = new Audio("cú.mp3");
+
+document.getElementById('cú').onclick = function() {
+  cú.play();
 }
 
 let cij = new Audio("cij.mp3");
@@ -2427,10 +2461,10 @@ document.getElementById('bachís').onclick = function() {
 
 
 
-let laans = new Audio("laans.mp3");
+let laan = new Audio("laan.mp3");
 
-document.getElementById('laans').onclick = function() {
-  laans.play();
+document.getElementById('laan').onclick = function() {
+  laan.play();
 }
 
 let lañs = new Audio("lañs.mp3");
@@ -2455,6 +2489,3 @@ document.getElementById('músís').onclick = function() {
 
 
 
-
-
-*/
