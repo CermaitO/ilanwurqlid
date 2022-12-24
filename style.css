@@ -1,3 +1,14 @@
+.larger-list {
+    font-size: larger;
+}
+
+.italich1 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size:xx-large;
+    margin-top: -30px;
+}
+
 .letterList {
     display: flex;
     flex-direction: row;
